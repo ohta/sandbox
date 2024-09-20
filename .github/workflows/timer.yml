@@ -1,0 +1,12 @@
+name: Invoke build on world
+
+on:
+  schedule:
+    - cron: '52 11 * * 5'
+
+jobs:
+  invoke:
+    name: invoke
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh workflow run -R ohta/sandbox hello.yml --ref world
