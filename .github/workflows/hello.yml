@@ -1,0 +1,13 @@
+name: Scheduled build
+
+on:
+  schedule:
+    - cron: '48 6 * * 5'
+
+jobs:
+  hello:
+    name: hello
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: echo HELLO
