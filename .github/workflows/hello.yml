@@ -2,7 +2,7 @@ name: Scheduled build
 
 on:
   schedule:
-    - cron: '15 9 * * 5'
+    - cron: '25 9 * * 5'
   workflow_call:
     inputs:
       branch:
