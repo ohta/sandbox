@@ -2,7 +2,7 @@ name: Invoke build on world
 
 on:
   schedule:
-    - cron: '1 12 * * 5'
+    - cron: '14 12 * * 5'
 
 jobs:
   invoke:
