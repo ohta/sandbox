@@ -1,13 +1,7 @@
 name: Scheduled build
 
 on:
-  schedule:
-    - cron: '15 9 * * 5'
-  workflow_call:
-    inputs:
-      branch:
-        type: string
-        required: true
+  workflow_dispatch:
 
 jobs:
   hello:
