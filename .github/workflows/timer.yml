@@ -2,10 +2,10 @@ name: Invoke build on world
 
 on:
   schedule:
-    - cron: '13 13 * * 5'
+    - cron: '13 14 * * 5'
 
 permissions:
-  - actions: write
+  actions: write
 
 jobs:
   invoke:
