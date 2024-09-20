@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4        
-      - name: hello
-        run: echo HELLO
+      - name: world
+        run: echo WORLD
       - name: cat
         run: cat .github/workflows/hello.yml
