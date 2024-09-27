@@ -14,3 +14,5 @@ jobs:
         run: echo WORLD
       - name: cat
         run: cat .github/workflows/hello.yml
+      - name: actor
+        run: echo ${{ github.actor }} / ${{ github.event_name }}
